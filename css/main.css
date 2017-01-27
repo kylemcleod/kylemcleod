@@ -138,6 +138,10 @@ a:hover {
 	color: #DB4303;
 }
 
+.header2 {
+	color: #DB4303;
+}
+
 p, li {
 	color: #5b5b5b;
 	font-family: "Helvetica";
@@ -154,8 +158,13 @@ li {
 	margin-bottom: .5em;
 }
 
+#list-wrapper {
+	margin: 0 auto;
+}
+
 .skills {
 	column-count: 2;
+	list-style-position: inside;
 }
 
 
@@ -169,6 +178,8 @@ li {
 .panel-body {
 	padding: 60px;
 }
+
+
 }
 
 
