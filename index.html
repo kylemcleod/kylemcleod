@@ -13,7 +13,7 @@
 <div class="container-fluid main-wrapper page" id="main-wrapper">
   <div id= "splash-page" class="splash-page center-block transition">
     <div id="splash"> <img src="images/km-logo.svg" alt="km logo" id="km-logo" class="center-block fade-in one">
-      <h1 onload="this.style.opacity='1';" class="fade-in two">view resume</h1>
+      <h1 id="view-resume" onload="this.style.opacity='1';" class="fade-in two">view resume</h1>
     </div>
   </div>
   <div class="panel-group container transition" id="accordion">
@@ -23,11 +23,13 @@
       </div>
       </a>
       <div id="collapse1" class="panel-collapse collapse in">
-        <div class="panel-body"> <span class="header3 hello"> My name is Kyle McLeod. <br>
-          California born. <br>
-         <br>
-          <br>
-          I am a designer. I am a developer. </span> </div>
+        <div class="panel-body hello">
+        	<span class="header3">
+              My name is Kyle McLeod. <br><br>
+              California born. Virginia raised.<br>
+              I am a designer. I am a developer.<br>
+            
+            </span> </div>
       </div>
     </div>
     <div class="panel panel-default"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse2" class="menu-item">
@@ -42,28 +44,31 @@
           September 2011 - Present</span><br>
           <br>
           <ul>
-          <li>Manages and maintains all of the store's inventory, assets, and supplies.</li>
+           <li>Manages and maintains all of the store's inventory, assets, and supplies.</li>
            <li>Consistantly mantains an accuracy rating of over 99%s</li>
            </ul>
           <br>
           <br>
-          <span class="header2">IS&T Market Mentor</span><br>
+          <span class="header2">IS&amp;T Market Mentor</span><br>
           <span class="header3">Mid-Atlantic<br> June 2016 – Present</span><br>
           <br>
           <ul>
-          <li>Provides Information System & Technology support and communication for the Mid-Atlantic market, creating strong relationships and clear avenues of feedback between retail and corporate teams.</li>
+          <li>Provides Information System &amp; Technology support and communication for the Mid-Atlantic market, creating strong relationships and clear avenues of feedback between retail and corporate teams.</li>
+          <li>Configure and setup IS&ampT equipment for new Apple Stores locations.</li>
           </ul>
           <br>
           <br>
-          <span class="header2">IS&TRS Warehouse Logistics</span><br>
+          <span class="header2">IS&amp;T Retail Systems</span><br>
           <span class="header3">Cupertino, CA<br> January 2016 – June 2016</span><br>
           <br>
           <ul>
-          <li>Provided IS&T hardware support for the entire AMR region, facilitat- ing the replacement or repair of payment devices, printers, and net- work equipment.</li>
+          <li>Provided IS&amp;T hardware support for the entire AMR region, facilitating the replacement or repair of payment devices, printers, and network equipment.</li>
+          <li>Developed a series of automation tools to streamline multiple daily processes, saving time and reducing errors.</li>
+          <li>Designed and deployed communication templates that had high visibility throughout the company.</li>
           </ul>
           <br>
           <br>
-          <span class="header2">Preservation & Operations</span><br>
+          <span class="header2">Preservation &amp; Operations</span><br>
           <span class="header3">Virginia Beach, VA<br> August 2011 – April 2012</span><br>
           <br>
           <ul>
@@ -72,11 +77,13 @@
           </ul>
           <br>
           <br>
-          <span class="header2">Visual Merchandise Lead</span><br>
+          <span class="header2">Visual Merchandising Lead</span><br>
           <span class="header3">Virginia Beach, VA<br> August 2011 – April 2012</span><br>
           <br>
           <ul>
-          <li>Configures retail technology and maintains visual standard on all customer-facing demo products. Plans, organizes, and facilitates merchandising events and launches.</li>
+          <li>Configures retail technology and maintains visual standard on all customer-facing demo products.</li>
+          <li>Plans, organizes, and facilitates merchandising events and launches.</li>
+          
           </ul>
           <br>
           <br>
@@ -131,10 +138,14 @@
       <div id="collapse4" class="panel-collapse collapse">
         <div class="panel-body"> 
         
-        <ul>
+        <ul class="skills">
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
+        <li>Unix</li>
+        <li>Asset management</li>
+        
+        
         </ul>
         
         </div>
@@ -143,13 +154,21 @@
     </div>
     <div class="panel panel-default"> <a data-toggle="collapse" data-parent="#accordion" href="#collapse5" class="menu-item">
       <div class="panel-heading">
-        <h4 class="panel-title"> Contact </h4>
+        <h4 class="panel-title">Contact</h4>
       </div>
       </a>
       <div id="collapse5" class="panel-collapse collapse">
-        <div class="panel-body"> <span class="header1">Kyle McLeod</span><br>
-          <span class="header2">757-235-5145<br>
-          hello@kylemcleod.com</span> </div>
+        <div class="panel-body"> 
+        
+        <!-- *********************** --> 
+        
+        
+       
+        
+        <!-- *********************** --> 
+        
+        
+        </div>
       </div>
     </div>
   </div>
@@ -158,4 +177,14 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="scripts/main.js"></script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-4642118-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </html>

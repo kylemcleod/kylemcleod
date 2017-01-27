@@ -27,53 +27,11 @@ body, html, .main-wrapper {
 	width: 100%;
 	height: 100%;
 }
-h1 {
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 24px;
-	font-weight: 100;
-	color: lightgray;
-	text-align: center;
+
+#main-wrapper {
+	overflow: hidden;
 }
-.top-header {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 60px;
-}
-.menu-icon {
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 18px 20px;
-}
-.splash-page {
-	width: 100%;
-	height: 100%;
-	position: relative;
-}
-#splash {
-	position: relative;
-	top: 50%;
-	transform: translateY(-50%);
-}
-#km-logo {
-	width: 120px;
-}
-.col-centered {
-	margin: 0 auto;
-}
-#work-page {
-	width: 80%;
-	background-color: blue;
-}
-.work {
-	height: 150px;
-	background-color: lightgray;
-	border: 3px;
-	border: solid;
-	border-color: red;
-}
+
 
 .fade-in {
 	opacity: 0;  /* make things invisible upon start */
@@ -97,6 +55,52 @@ h1 {
 	-moz-animation-delay: 1.2s;
 	animation-delay: 1.2s;
 }
+
+#view-resume {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: 100;
+	color: lightgray;
+	text-align: center;
+}
+
+.hello {
+	text-align: center;
+}
+
+.splash-page {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	top: 0;
+}
+#splash {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+#km-logo {
+	width: 120px;
+}
+
+
+
+
+.transition {
+	-webkit-transition: top 1s ease-out;  /* Chrome 1-25, Safari 3.2+ */
+	-moz-transition: top 1s ease-out;  /* Firefox 4-15 */
+	-o-transition: top 1s ease-out;  /* Opera 10.50–12.00 */
+	transition: top .5s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
+}
+
+.open {
+	top: -100% !important;
+}
+.off-screen {
+	top: -100% !important;
+}
+
 #accordion {
 	padding-top: 50px;
 }
@@ -120,22 +124,10 @@ h1 {
 a:hover {
 	text-decoration: none;
 }
-h2 {
-	color: #ccc;
-	font-family: "Helvetica";
-	font-size: 25px;
-	font-weight: 100;
-	text-align: center;
-}
-.menu-item {
-	color: #ccc;
-	font-family: "Helvetica";
-	font-size: 20px;
-	font-weight: 100;
-	text-align: center;
-}
+
+
 .header1, .header2, .header3 {
-	color: #darkgray;
+	color: #5b5b5b;
 	font-family: "Helvetica";
 	font-size: 16px;
 	font-weight: 100;
@@ -145,40 +137,38 @@ h2 {
 	font-weight:400;
 	color: #DB4303;
 }
-p {
-	color: #darkgray;
+
+p, li {
+	color: #5b5b5b;
 	font-family: "Helvetica";
 	font-size: 14px;
 	letter-spacing: .05em;
+	font-weight: 100;
 }
-.hello {
-	text-align: center;
+
+ul {
+	padding-left: 15px;
 }
-#main-wrapper {
-	overflow: hidden;
+
+li {
+	margin-bottom: .5em;
 }
+
+.skills {
+	column-count: 2;
+}
+
+
 #accordion {
 	position: relative;
 	top: 100%;
 }
-.display-on {
-	position: relative !important;
-	top: 100% !important;
-	display: inherit !important;
+
+@media (min-width: 767px) {
+ 
+.panel-body {
+	padding: 60px;
 }
-.open {
-	top: -100% !important;
 }
-.off-screen {
-	top: -100% !important;
-}
-.transition {
-	-webkit-transition: top 1s ease-out;  /* Chrome 1-25, Safari 3.2+ */
-	-moz-transition: top 1s ease-out;  /* Firefox 4-15 */
-	-o-transition: top 1s ease-out;  /* Opera 10.50–12.00 */
-	transition: top .5s ease-out;  /* Chrome 26, Firefox 16+, IE 10+, Opera 12.10+ */
-}
-#splash-page {
-	position: relative;
-	top: 0;
-}
+
+
