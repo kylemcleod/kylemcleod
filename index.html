@@ -5,7 +5,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Kyle McLeod</title>
+
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -181,8 +183,8 @@
         <!-- *********************** --> 
         
         
-        
-        <form id="ajax-contact" method="post" action="/scripts/mailer.php">
+        <div id="form-messages"></div>
+        <form id="ajax-contact" method="post" action="scripts/mailer.php">
     <div class="field">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" required>
