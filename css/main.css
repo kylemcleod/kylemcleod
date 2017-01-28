@@ -152,6 +152,7 @@ p, li {
 
 ul {
 	padding-left: 15px;
+	list-style-position: inside;
 }
 
 li {
@@ -159,12 +160,12 @@ li {
 }
 
 #list-wrapper {
-	margin: 0 auto;
+	margin: auto;
+	max-width: 662px;
 }
 
 .skills {
-	column-count: 2;
-	list-style-position: inside;
+	column-width: 95px;
 }
 
 
@@ -173,13 +174,31 @@ li {
 	top: 100%;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 567px) {
  
 .panel-body {
-	padding: 60px;
+	padding: 20px 60px;
 }
 
-
+.panel-wrapper {
+	text-align: center;
+	width: 70%;
+	margin: 0px auto;
 }
 
+.skills {
+	column-count: 3;
+}
+}
 
+@media (max-width: 321px) {
+ 
+li {
+	font-size: 12px;
+}
+.skills {
+	text-align:center;
+	column-count:1;
+	
+}
+}
