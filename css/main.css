@@ -232,6 +232,17 @@ button:active {
   box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
 }
 
+::-webkit-input-placeholder {
+   font-size: 17px;
+   font-weight:100;
+}
+
+
+.contact, a{
+	font-size: 18px;
+	color: #DB4303;
+	font-weight: 100;
+}
 
 @media (min-width: 567px) {
 	
@@ -257,7 +268,11 @@ button:active {
 li {
 	font-size: 16px;
 }
-
+.contact {
+	font-size: 22px;
+	color: #DB4303;
+	font-weight: 100;
+}
 
 }
 
