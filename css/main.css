@@ -179,6 +179,7 @@ li {
 
 .field {
   margin: 5px 0;
+  -webkit-appearance: none;
 }
 
 label {
