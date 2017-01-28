@@ -33,7 +33,8 @@ body, html, .main-wrapper {
 
 #main-wrapper {
 	overflow: hidden;
-	margin-bottom: 50px;
+	
+	
 }
 
 
@@ -64,7 +65,7 @@ body, html, .main-wrapper {
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	font-weight: 100;
-	color: lightgray;
+	color: #999999;
 	text-align: center;
 }
 
@@ -107,7 +108,7 @@ body, html, .main-wrapper {
 
 #accordion {
 	padding-top: 50px;
-	margin-bottom: 50px;
+	padding-bottom: 50px;
 	position: relative;
 	top: 100%;
 }
@@ -177,7 +178,7 @@ li {
 
 
 .field {
-  margin: 1em 0;
+  margin: 5px 0;
 }
 
 label {
@@ -230,7 +231,13 @@ button:active {
   box-shadow: 0 -3px 10px rgba(0, 0, 0, 0.1) inset;
 }
 
+
 @media (min-width: 567px) {
+	
+	.header1, .header2, .header3 {
+		font-size: 20px;
+	}
+	
  
 .panel-body {
 	padding: 20px 60px;
@@ -249,6 +256,8 @@ button:active {
 li {
 	font-size: 16px;
 }
+
+
 }
 
 @media (max-width: 321px) {
