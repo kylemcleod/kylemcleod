@@ -7,7 +7,6 @@
 <title>Kyle McLeod</title>
 
 <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-<link href="css/style.css" rel="stylesheet" type="text/css">
 <link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 
@@ -154,7 +153,7 @@
       <div id="collapse4" class="panel-collapse collapse">
         <div class="panel-body"> 
         <div id="list-wrapper">
-        <ul class="skills">
+        <ul class="skills header3">
         <li>HTML</li>
         <li>CSS</li>
         <li>Javascript</li>
@@ -183,30 +182,15 @@
         <!-- *********************** --> 
         
         
-        <div id="form-messages"></div>
-        <form id="ajax-contact" method="post" action="scripts/mailer.php">
-    <div class="field">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-    </div>
-
-    <div class="field">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-    </div>
-
-    <div class="field">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-    </div>
-
-    <div class="field">
-        <button type="submit">Send</button>
-    </div>
+        <form method="POST" action="http://formspree.io/mcleodka@gmail.com">
+        <input type="text" name="name">
+  <input type="email" name="email" placeholder="Your email">
+  <textarea name="message" placeholder="Your message"></textarea>
+  <button type="submit">Send</button>
+  <input type="text" name="_gotcha" style="display:none" />
 </form>
-        
-        
-       
+
+    
         
         <!-- *********************** --> 
         
