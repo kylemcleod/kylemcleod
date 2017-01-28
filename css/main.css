@@ -70,7 +70,8 @@ body, html, .main-wrapper {
 }
 
 .hello {
-	text-align:justify;
+	font-size: 15px;
+	text-align:center;
 }
 
 .splash-page {
@@ -267,6 +268,7 @@ button:active {
 }
 li {
 	font-size: 16px;
+	
 }
 .contact {
 	font-size: 22px;
@@ -280,6 +282,7 @@ li {
  
 li {
 	font-size: 12px;
+	
 }
 .skills {
 	text-align:center;
